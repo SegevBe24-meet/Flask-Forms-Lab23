@@ -13,7 +13,11 @@
 
 </head>
 <body>
-
+{% if name_check == True %}
+  <h>True, {{n}} is in your friends</h>
+{% else %}
+  <h>False, {{n}} is not in your friends </h>
+  {% endif %}
 
 
 </body>
